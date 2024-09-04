@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Collection</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <form action="conclusion.html" method="post">
+            <ul>
+                <li>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" placeholder="In Block Letters">
+                </li><br>
+                <li>
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" name="mname" placeholder="Optional">
+                </li><br>
+                <li>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" placeholder="In Block Letters">
+                </li><br>
+                <li>
+                    <label for="dob">Date of Birth :</label>
+                    <input type="date" name="dob">
+                </li>
+                <li>
+                    <label for="adress">Address :</label><br>
+                    <textarea name="adress" id="" cols="40" rows="6">type here</textarea><br><br>
+                </li>
+                <li>
+                    <label for="gender">Gender:</label>
+                </li>
+                <ul>
+                    <li>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female">female
+                        <input type="radio" name="gender" value="others">Others
+                    </li>
+                </ul>
+                <br><br>
+               <li>
+                <label for="gname">Name of Gurdian:</label>
+                <input type="text" name="gname" placeholder="Enter Gurdian's name">
+               </li><br>
+               <li>
+                <label for="mail">Email Address:</label>
+                <input type="email" name="mail" placeholder="enter email Address">                
+               </li><br>
+               <li>
+                <label for="num">Phone Number:</label>
+                <input type="number" name="num" placeholder="0123456789">
+               </li><br>
+               <li>
+                <label for="edu">Education Qualification:</label>
+                <select name="edu">
+                    <option value="edu">select</option>
+                    <option value="edu">SSLC</option>
+                    <option value="edu">Plus Two</option>
+                    <option value="edu">Dgree</option>
+                    <option value="edu">PHD</option>
+                </select>
+               </li><br>
+               <li>
+                <label for="hobby">Hobbies:</label>
+               </li>
+               <ul>
+                
+                    <input type="checkbox" name="hobby" value="Dancing">Dancing
+                    <input type="checkbox" name="hobby" value="singing">Singing
+                    <input type="checkbox" name="hobby" value="drawing">Drawing <br>
+                    <input type="checkbox" name="hobby" value="watching">Watching
+                    <input type="checkbox" name="hobby" value="reading">Reading
+                    <input type="checkbox" name="hobby" value="acting">Acting <br>
+                    <input type="checkbox" name="hobby" value="yoga">Yoga
+                    <input type="checkbox" name="hobby" value="exercise">Exercise
+                    <input type="checkbox" name="hobby" value="writing">Writing <br>
+                    <input type="checkbox" name="hobby" value="other">Others
+               </ul>
+            </ul>
+            <label for="description">About you:</label><br>
+            <textarea name="description" id="" cols="30" rows="4">Short description...</textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+    </body>
+</html>
